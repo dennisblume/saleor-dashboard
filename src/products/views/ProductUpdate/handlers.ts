@@ -56,6 +56,7 @@ export function createUpdateHandler(
         name: data.name,
         publicationDate:
           data.publicationDate !== "" ? data.publicationDate : null,
+        rating: data.rating,
         seo: {
           description: data.seoDescription,
           title: data.seoTitle

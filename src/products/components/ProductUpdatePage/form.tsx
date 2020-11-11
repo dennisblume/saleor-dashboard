@@ -42,6 +42,7 @@ export interface ProductUpdateFormData extends MetadataFormData {
   isAvailableForPurchase: boolean;
   isPublished: boolean;
   name: string;
+  rating: number;
   slug: string;
   publicationDate: string;
   seoDescription: string;

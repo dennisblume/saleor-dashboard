@@ -191,6 +191,7 @@ export const productFragmentDetails = gql`
     }
     availableForPurchase
     visibleInListings
+    rating
   }
 `;
 

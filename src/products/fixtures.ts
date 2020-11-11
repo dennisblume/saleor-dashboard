@@ -256,6 +256,7 @@ export const product: (
       localized: "678.78 NZD"
     }
   },
+  rating: 100,
   seoDescription: "Seo description",
   seoTitle: "Seo title",
   sku: "59661-34207",

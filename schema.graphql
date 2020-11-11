@@ -3440,6 +3440,7 @@ type Product implements Node & ObjectWithMetadata {
   collections: [Collection]
   translation(languageCode: LanguageCodeEnum!): ProductTranslation
   isAvailableForPurchase: Boolean
+  rating: Float
 }
 
 type ProductBulkDelete {
@@ -3491,6 +3492,7 @@ input ProductCreateInput {
   visibleInListings: Boolean
   productType: ID!
   stocks: [StockInput!]
+  rating: Float
 }
 
 type ProductDelete {
@@ -3626,6 +3628,7 @@ input ProductInput {
   trackInventory: Boolean
   basePrice: PositiveDecimal
   visibleInListings: Boolean
+  rating: Float
 }
 
 input ProductOrder {

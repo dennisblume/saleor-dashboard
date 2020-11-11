@@ -180,6 +180,7 @@ export interface ProductUpdatePageFormData extends MetadataFormData {
   name: string;
   slug: string;
   publicationDate: string;
+  rating: number;
   seoDescription: string;
   seoTitle: string;
   sku: string;
@@ -210,6 +211,7 @@ export function getProductUpdatePageFormData(
     name: maybe(() => product.name, ""),
     privateMetadata: product?.privateMetadata?.map(mapMetadataItemToInput),
     publicationDate: maybe(() => product.publicationDate, ""),
+    rating: product?.rating,
     seoDescription: maybe(() => product.seoDescription, ""),
     seoTitle: maybe(() => product.seoTitle, ""),
     sku: maybe(

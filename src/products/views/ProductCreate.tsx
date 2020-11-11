@@ -108,6 +108,7 @@ export const ProductCreateView: React.FC = () => {
           productType: formData.productType?.id,
           publicationDate:
             formData.publicationDate !== "" ? formData.publicationDate : null,
+          rating: formData.rating,
           seo: {
             description: formData.seoDescription,
             title: formData.seoTitle

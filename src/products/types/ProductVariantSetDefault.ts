@@ -239,6 +239,7 @@ export interface ProductVariantSetDefault_productVariantSetDefault_product {
   taxType: ProductVariantSetDefault_productVariantSetDefault_product_taxType | null;
   availableForPurchase: any | null;
   visibleInListings: boolean;
+  rating: number;
 }
 
 export interface ProductVariantSetDefault_productVariantSetDefault {

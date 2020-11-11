@@ -233,6 +233,7 @@ export interface ProductDetails_product {
   taxType: ProductDetails_product_taxType | null;
   availableForPurchase: any | null;
   visibleInListings: boolean;
+  rating: number;
 }
 
 export interface ProductDetails_taxTypes {

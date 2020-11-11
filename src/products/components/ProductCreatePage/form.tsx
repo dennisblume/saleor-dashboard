@@ -43,6 +43,7 @@ export interface ProductCreateFormData extends MetadataFormData {
   name: string;
   productType: ProductType;
   publicationDate: string;
+  rating: number;
   seoDescription: string;
   seoTitle: string;
   sku: string;
@@ -120,6 +121,7 @@ const defaultInitialFormData: ProductCreateFormData &
   privateMetadata: [],
   productType: null,
   publicationDate: "",
+  rating: null,
   seoDescription: "",
   seoTitle: "",
   sku: "",

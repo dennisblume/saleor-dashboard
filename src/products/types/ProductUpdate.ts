@@ -240,6 +240,7 @@ export interface ProductUpdate_productUpdate_product {
   taxType: ProductUpdate_productUpdate_product_taxType | null;
   availableForPurchase: any | null;
   visibleInListings: boolean;
+  rating: number;
 }
 
 export interface ProductUpdate_productUpdate {
