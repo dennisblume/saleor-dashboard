@@ -347,4 +347,5 @@ export interface OrderMarkAsPaid {
 
 export interface OrderMarkAsPaidVariables {
   id: string;
+  transactionReference: string;
 }
