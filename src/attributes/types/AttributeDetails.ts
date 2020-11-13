@@ -20,11 +20,18 @@ export interface AttributeDetails_attribute_privateMetadata {
   value: string;
 }
 
+export interface AttributeDetails_attribute_values_file {
+  __typename: "File";
+  url: string;
+  contentType: string;
+}
+
 export interface AttributeDetails_attribute_values {
   __typename: "AttributeValue";
   id: string;
   name: string | null;
   slug: string | null;
+  file: AttributeDetails_attribute_values_file | null;
   type: AttributeValueType | null;
 }
 
